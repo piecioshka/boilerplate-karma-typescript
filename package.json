@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "boilerplate-karma-typescript",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "karma start --singleRun",
+    "test:watch": "karma start"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^6.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "latest",
+    "typescript": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piecioshka/boilerplate-karma-typescript"
+  }
+}
