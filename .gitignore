@@ -7,3 +7,5 @@ coverage/
 coverage.lcov
 
 out-tsc/
+
+!.vscode/
