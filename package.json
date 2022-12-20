@@ -10,8 +10,8 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "test": "karma start --singleRun",
-    "test:watch": "karma start"
+    "test": "karma start",
+    "test:ci": "karma start --singleRun --browsers ChromeHeadless"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.1",
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/piecioshka/boilerplate-karma-typescript"
+    "url": "git@github.com:piecioshka/boilerplate-karma-typescript.git"
   }
 }
